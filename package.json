@@ -4,7 +4,7 @@
 	"main": "lib/index.js",
 	"license": "MIT",
 	"scripts": {
-		"postinstall": "babel src --out-dir lib --copy-files"
+		"build": "babel src --out-dir lib --copy-files"
 	},
 	"babel": {
 		"presets": [

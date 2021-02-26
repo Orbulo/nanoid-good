@@ -1,8 +1,7 @@
 {
-	"name": "nanoid",
+	"name": "orbulo-nanoid-good",
 	"version": "1.0.0",
 	"main": "lib/index.js",
-	"private": true,
 	"license": "MIT",
 	"scripts": {
 		"preinstall": "babel src --out-dir lib --copy-files"

@@ -1,5 +1,5 @@
 {
-	"name": "orbulo-nanoid-good",
+	"name": "@leonzalion/nanoid-good",
 	"version": "1.0.0",
 	"main": "lib/index.js",
 	"license": "MIT",

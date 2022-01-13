@@ -1,0 +1,22 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "@leonzalion/nanoid-good@1.0.0",
+    "stage": "build",
+    "script": "babel src --out-dir lib --copy-files",
+    "pkgname": "@leonzalion/nanoid-good",
+    "err": {
+      "name": "pnpm",
+      "message": "@leonzalion/nanoid-good@1.0.0 build: `babel src --out-dir lib --copy-files`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: @leonzalion/nanoid-good@1.0.0 build: `babel src --out-dir lib --copy-files`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/usr/local/Cellar/node/17.3.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.25.1/node_modules/pnpm/dist/pnpm.cjs:91914:22)\n    at ChildProcess.emit (node:events:390:28)\n    at maybeClose (node:internal/child_process:1062:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)"
+    }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}
